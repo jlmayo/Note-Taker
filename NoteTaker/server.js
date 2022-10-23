@@ -61,7 +61,7 @@ app.post('api/notes', (req, res) => {
 
 //Initializes server on the Port specified above and provides a confirmation message in the console.
 app.listen(PORT, () => {
-    console.log(`API server is ready on port <a heref = 'http://localhost:${PORT}.`);
+    console.log(`API server is ready on port 'http://localhost:${PORT}.`);
 });
 
 
