@@ -1,1 +1,13 @@
-[]
+[
+  2,
+  {
+    "title": "New Note",
+    "text": "Notes!",
+    "id": 0
+  },
+  {
+    "title": "Persistence",
+    "text": "The notes persist!",
+    "id": 1
+  }
+]

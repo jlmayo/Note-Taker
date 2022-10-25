@@ -14,6 +14,6 @@ Run nmp i and then npm start from the command line of an integrated terminal wit
 
 ### Credits
 
-Github: [jlmayo](https://github.com/jlmayo/ReadMe-Generator)
+Github: [jlmayo](https://github.com/jlmayo/Note-Taker)
 
 Deployment: Heroku. [See it here.]

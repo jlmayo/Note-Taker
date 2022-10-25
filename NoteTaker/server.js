@@ -11,12 +11,13 @@ const PORT = process.env.PORT || 3001;
 const notesApp = require('./db/db.json');
 
 //Sets up the middleware for multiple static files. Accounts for multiple data types.
-app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
+app.use(express.static('public'));
+
 
 //GET request routes to retrieve information from the public directory, including the homepage and notes html file.
-app.get('api/notes', (req, res) => {
+app.get('/api/notes', (req, res) => {
     res.json(notesApp.slice(1));
 });
 
@@ -54,14 +55,14 @@ function createNewNote(body, notesArray) {
 }
 
 
-app.post('api/notes', (req, res) => {
+app.post('/api/notes', (req, res) => {
     const newNote = createNewNote(req.body, notesApp);
     res.json(newNote);
 });
 
 //Initializes server on the Port specified above and provides a confirmation message in the console.
 app.listen(PORT, () => {
-    console.log(`API server is ready on port 'http://localhost:${PORT}.`);
+    console.log(`API server is ready on port http://localhost:${PORT}.`);
 });
 
 
