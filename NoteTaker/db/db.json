@@ -1,13 +1,18 @@
 [
-  2,
+  3,
   {
-    "title": "New Note",
-    "text": "Notes!",
+    "title": "Note to Self",
+    "text": "Write a note",
     "id": 0
   },
   {
-    "title": "Persistence",
-    "text": "The notes persist!",
+    "title": "Edit code",
+    "text": "Make sure the notes show up.",
     "id": 1
+  },
+  {
+    "title": "Add a note",
+    "text": "Note added",
+    "id": 2
   }
 ]
