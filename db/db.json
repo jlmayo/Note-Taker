@@ -1,5 +1,5 @@
 [
-  3,
+  4,
   {
     "title": "Note to Self",
     "text": "Write a note",
@@ -14,5 +14,10 @@
     "title": "Add a note",
     "text": "Note added",
     "id": 2
+  },
+  {
+    "title": "New Note",
+    "text": "Test note",
+    "id": 3
   }
 ]
